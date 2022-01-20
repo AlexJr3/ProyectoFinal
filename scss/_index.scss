@@ -1,0 +1,75 @@
+@mixin tamletra{
+    margin: 14px;
+    h2{
+        font-size: 1em;
+    }span{
+        font-size: 0.8em;
+    }
+}
+
+
+
+.main-index{
+    font-size: 15px;
+        .carousel{
+            width:99%;
+            margin: 10px auto;
+            border: 2px solid #000;
+            border-radius: 10px;
+            .imagen{
+                margin:10px auto;
+                padding:10px;
+            }.prod{
+                color:$bg-dark;
+                text-align: center;
+                border-bottom: 1px solid #000;
+
+            }.prod-precio{
+                @extend .prod;
+                border: 2px solid $bg-dark;
+                display: inline-block;
+                border-radius: 10px;
+                margin: 10px;
+                .prod-boton{
+                    color:$bg-dark;
+                    border-radius: 5px;
+                    font-size: 13px;
+                    &:hover{
+                        background-color: $bg-dark;
+                        color:$color-letras;
+                    }
+                }
+            }
+        }
+    
+    .caja-info{
+        display: grid;
+        grid-column: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        grid-template-areas: "envio pagos consultas";
+        margin: 10px auto;
+        background-color: $color-letras;
+        .envio{
+            grid-area: envio;
+            @include tamletra();
+            .bi-truck{
+                font-size: 100px;
+                text-align: center;
+            }
+        }.pagos{
+            grid-area: pagos;
+            @include tamletra();
+            .bi-credit-card-fill{
+                font-size: 100px;
+                text-align: center;
+            }
+        }.consultas{
+            grid-area: consultas;
+            @include tamletra();
+            .bi-chat-dots-fill{
+                font-size: 100px;
+                text-align: center;
+            }
+        }
+    }
+}

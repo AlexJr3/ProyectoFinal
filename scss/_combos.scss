@@ -1,0 +1,12 @@
+.main-combos{
+    @include card;
+    h2{
+        color:$bg-dark;
+        text-align: center;
+        margin:15px;
+        
+    }.flexb{
+        @include flex;
+    }
+    
+}

@@ -1,0 +1,37 @@
+.main-nosotros{
+    h2{
+        margin:20px;
+        color:$bg-dark;
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+    }.caja-nosotros{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        .text-nosotros{
+            margin:20px auto;
+            padding:10px;
+            p{
+                text-align: justify;
+                letter-spacing: 1px;
+                color: $bg-dark;
+                font-size: 25px;
+                font-weight: bold;
+                padding:15px;
+            }
+        }
+        .div-nosotros{
+            width: 90%;
+            margin:10px auto;
+            border-radius: 15px;
+            box-shadow: 9px 11px 31px 3px rgba(0,0,0,0.66);
+                -webkit-box-shadow: 9px 11px 31px 3px rgba(0,0,0,0.66);
+                -moz-box-shadow: 9px 11px 31px 3px rgba(0,0,0,0.66);
+            img{
+                width: 100%;
+                padding:15px;
+                border-radius: 15px;
+            }
+}}}

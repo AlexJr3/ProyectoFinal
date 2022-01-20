@@ -1,0 +1,26 @@
+.main-contacto{
+    font-size: 15px;
+    h2{
+        color:$bg-dark;
+        text-align: center;
+        font-size: 1.2em;
+        margin:1em;
+} .form-contacto{
+    padding:1.5em;
+    input{
+        margin:10px;
+        padding:10px;
+    }textarea{
+        margin:10px;
+        padding:10px;
+        resize: none;
+    }button{
+        margin:10px auto;
+        display: block;
+    
+    }
+}
+
+
+
+}

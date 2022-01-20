@@ -1,0 +1,39 @@
+.main-productos{
+    h2{
+        color:$bg-dark;
+        text-align: center;
+        margin:20px;
+        padding:10px;
+    }.flex{
+        @include flex;
+        .card{
+            margin:15px;
+            border-radius: 10px;
+            border: 1px solid #000;
+            transition: all ease 1s;
+            &:hover{
+                box-shadow: 9px 11px 31px 3px rgba(0,0,0,0.66);
+                -webkit-box-shadow: 9px 11px 31px 3px rgba(0,0,0,0.66);
+                -moz-box-shadow: 9px 11px 31px 3px rgba(0,0,0,0.66);
+                transform: scale(1.3);
+                
+            }
+            h5{
+                color:$bg-dark;
+                padding:10px;
+                text-align: center;
+                
+            }.h5-mp{
+                border-bottom: 1px solid $bg-dark;
+            }.card-text{
+                text-align: center;
+                color: $bg-dark;
+                font-size: 15px;
+                margin:10px;
+
+            }a{
+                width: 100%;
+            }
+        }
+    }
+}

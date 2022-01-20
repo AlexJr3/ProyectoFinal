@@ -1,0 +1,78 @@
+@mixin flexb{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas: "info redes ubicacion";
+    background-color: $bg-dark;
+    font-size: 15px;
+    height: 250px;
+    .info-nosotros{
+        padding: 10px;
+        grid-area: info;
+        h2{
+            text-align: center;
+            color: $color-letras;
+            font-size: 0.9em;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+            ul{
+                @include flexb;
+                list-style-type: none;
+                margin-right: 1em;
+                padding:10px;
+                li{
+                    margin:0.5em;
+                    text-align: center;
+                    a{
+                        text-decoration: none;
+                        color: $color-letras;
+                        padding:7px;
+                        font-size: 0.8em;
+                        &:hover{
+                            color:$bg-hover
+                        }
+
+                    }
+                }
+            }
+        
+    }
+.rrss{
+    @extend .info-nosotros;
+    grid-area: redes;
+    i{
+        font-size: 1.2em;
+    }
+}}
+
+.ubicacion{
+    padding:10px;
+    grid-area: ubicacion;
+    h2{
+        text-align: center;
+            color: $color-letras;
+            font-size: 0.9em;
+            font-weight: bold;
+            margin-bottom: 15px;
+    }ul{
+        @include flexb;
+        list-style-type: none;
+        padding:10px;
+        li{
+            margin:1em;
+            text-align: center;
+            color: $color-letras;
+            font-size: 0.8em;
+            
+        }
+    }}
