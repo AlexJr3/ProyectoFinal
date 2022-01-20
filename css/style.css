@@ -99,7 +99,8 @@
           overflow: none;
           background-color: #004AAD;
           opacity: 0.7;
-          list-style-type: none; }
+          list-style-type: none;
+          z-index: 10; }
           .header-index nav .menu li .sub li {
             float: left;
             transition: all ease 0.9;
@@ -251,7 +252,8 @@
       .main-index .carousel .prod-precio .prod-boton {
         color: #004AAD;
         border-radius: 5px;
-        font-size: 13px; }
+        font-size: 13px;
+        z-index: 20; }
         .main-index .carousel .prod-precio .prod-boton:hover {
           background-color: #004AAD;
           color: #C1FDFF; }

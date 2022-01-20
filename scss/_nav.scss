@@ -108,6 +108,7 @@
                     background-color: $bg-dark;
                     opacity: 0.7;
                     list-style-type: none;
+                    z-index: 10;
                     li{
                         float: left;
                         transition: all ease 0.9;
@@ -128,7 +129,7 @@
         }
     }
 }
-// TABLETS
+// desktop
 @media screen and (min-width: 1023px){
     .header-index{
         display: flex;
