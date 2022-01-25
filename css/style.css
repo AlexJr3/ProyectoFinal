@@ -1,7 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif; }
 
 .header-index {
   display: flex;
@@ -268,7 +269,8 @@
       grid-area: envio;
       margin: 14px; }
       .main-index .caja-info .envio h2 {
-        font-size: 1em; }
+        font-size: 1em;
+        font-family: 'Bebas Neue', cursive; }
       .main-index .caja-info .envio span {
         font-size: 0.8em; }
       .main-index .caja-info .envio .bi-truck {
@@ -278,7 +280,8 @@
       grid-area: pagos;
       margin: 14px; }
       .main-index .caja-info .pagos h2 {
-        font-size: 1em; }
+        font-size: 1em;
+        font-family: 'Bebas Neue', cursive; }
       .main-index .caja-info .pagos span {
         font-size: 0.8em; }
       .main-index .caja-info .pagos .bi-credit-card-fill {
@@ -288,7 +291,8 @@
       grid-area: consultas;
       margin: 14px; }
       .main-index .caja-info .consultas h2 {
-        font-size: 1em; }
+        font-size: 1em;
+        font-family: 'Bebas Neue', cursive; }
       .main-index .caja-info .consultas span {
         font-size: 0.8em; }
       .main-index .caja-info .consultas .bi-chat-dots-fill {
@@ -311,7 +315,8 @@ footer {
       color: #C1FDFF;
       font-size: 0.9em;
       font-weight: bold;
-      margin-bottom: 15px; }
+      margin-bottom: 15px;
+      font-family: 'Bebas Neue', cursive; }
     footer .info-nosotros ul, footer .rrss ul {
       display: flex;
       flex-direction: column;
@@ -343,7 +348,8 @@ footer {
     color: #C1FDFF;
     font-size: 0.9em;
     font-weight: bold;
-    margin-bottom: 15px; }
+    margin-bottom: 15px;
+    font-family: 'Bebas Neue', cursive; }
   .ubicacion ul {
     display: flex;
     flex-direction: column;
@@ -363,7 +369,8 @@ footer {
     color: #004AAD;
     text-align: center;
     font-size: 1.2em;
-    margin: 1em; }
+    margin: 1em;
+    font-family: 'Bebas Neue', cursive; }
   .main-contacto .form-contacto {
     padding: 1.5em; }
     .main-contacto .form-contacto input {
@@ -381,7 +388,8 @@ footer {
   color: #004AAD;
   text-align: center;
   margin: 20px;
-  padding: 10px; }
+  padding: 10px;
+  font-family: 'Bebas Neue', cursive; }
 
 .main-productos .flex {
   display: flex;
@@ -401,7 +409,8 @@ footer {
     .main-productos .flex .card h5 {
       color: #004AAD;
       padding: 10px;
-      text-align: center; }
+      text-align: center;
+      font-family: 'Bebas Neue', cursive; }
     .main-productos .flex .card .h5-mp {
       border-bottom: 1px solid #004AAD; }
     .main-productos .flex .card .card-text {
@@ -439,7 +448,8 @@ footer {
 .main-combos h2 {
   color: #004AAD;
   text-align: center;
-  margin: 15px; }
+  margin: 15px;
+  font-family: 'Bebas Neue', cursive; }
 
 .main-combos .flexb {
   display: flex;
@@ -452,7 +462,8 @@ footer {
   color: #004AAD;
   text-align: center;
   font-size: 30px;
-  font-weight: bold; }
+  font-weight: bold;
+  font-family: 'Bebas Neue', cursive; }
 
 .main-nosotros .caja-nosotros {
   display: flex;

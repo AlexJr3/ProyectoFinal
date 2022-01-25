@@ -24,6 +24,7 @@ footer{
             font-size: 0.9em;
             font-weight: bold;
             margin-bottom: 15px;
+            font-family: 'Bebas Neue', cursive;
         }
             ul{
                 @include flexb;
@@ -64,6 +65,7 @@ footer{
             font-size: 0.9em;
             font-weight: bold;
             margin-bottom: 15px;
+            font-family: 'Bebas Neue', cursive;
     }ul{
         @include flexb;
         list-style-type: none;

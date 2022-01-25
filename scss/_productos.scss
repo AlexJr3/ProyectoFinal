@@ -4,6 +4,7 @@
         text-align: center;
         margin:20px;
         padding:10px;
+        font-family: 'Bebas Neue', cursive;
     }.flex{
         @include flex;
         .card{
@@ -22,6 +23,7 @@
                 color:$bg-dark;
                 padding:10px;
                 text-align: center;
+                font-family: 'Bebas Neue', cursive;
                 
             }.h5-mp{
                 border-bottom: 1px solid $bg-dark;
